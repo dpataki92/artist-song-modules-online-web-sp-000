@@ -16,6 +16,7 @@ class Artist
   def self.all
     @@artists
   end
+
   def self.reset_all
     self.all.clear
   end
